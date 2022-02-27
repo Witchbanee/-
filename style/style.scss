@@ -452,11 +452,9 @@ main {
 }
 
 .swiper-pagination_projects {
-
     @media (max-width: 432px) {
         margin-bottom: 287px;
     }
-
 
     @media (max-width: 425px) {
         margin-bottom: 313px;
@@ -759,6 +757,11 @@ main {
     padding-bottom: 54px;
     min-height: 320px;
 
+    @media (max-width: 1339px) {
+        font-size: 13px;
+        line-height: 18px;
+        min-height: 393px;
+    }
     @media (max-width: 699px) {
         padding-top: 34px;
         padding-left: 25px;
@@ -767,17 +770,7 @@ main {
         min-height: 320px;
     }
 
-    @media (max-width: 300px) {
-        padding: 16px 20px 40px 20px;
-        line-height: 18px;
-    }
-
-    @media (max-width: 1339px) {
-        font-size: 13px;
-        line-height: 18px;
-        min-height: 393px;
-    }
-
+    
     @media (max-width: 432px) {
         min-height: 423px;
     }
@@ -791,12 +784,16 @@ main {
     @media (max-width: 320px) {
         min-height: 603px;
     }
+
     @media (max-width: 300px) {
         font-size: 12px;
         line-height: 18px;
         min-height: 543px;
+        padding: 16px 20px 40px 20px;
     }
+
 }
+
 
 .principles__block-info__title {
     font-size: 18px;
@@ -915,14 +912,14 @@ main {
     @media (max-width: 414px) {
         margin-bottom: 710px;
     }
-    
+
     @media (max-width: 375px) {
         margin-bottom: 747px;
     }
     @media (max-width: 375px) {
         margin-bottom: 752px;
     }
-    
+
     @media (max-width: 341px) {
         margin-bottom: 942px;
     }
