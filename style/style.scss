@@ -452,11 +452,17 @@ main {
 }
 
 .swiper-pagination_projects {
+    @media (max-width: 425px) {
+        margin-bottom: 313px;
+    }
 
     @media (max-width: 341px) {
         margin-bottom: 361px;
     }
 
+    @media (max-width: 320px) {
+        margin-bottom: 359px;
+    }
     @media (max-width: 300px) {
         margin-bottom: 312px;
     }
@@ -770,6 +776,20 @@ main {
         line-height: 18px;
         min-height: 543px;
     }
+
+    @media (max-width: 425px) {
+        min-height: 423px;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 12px;
+        line-height: 18px;
+        min-height: 495px;
+    }
+
+    @media (max-width: 320px) {
+        min-height: 603px;
+    }
 }
 
 .principles__block-info__title {
@@ -879,18 +899,26 @@ main {
         margin-bottom: 912px;
     }
 
-    @media (max-width: 375px) {
-        margin-bottom: 752px;
+    @media (max-width: 425px) {
+        margin-bottom: 679px;
     }
-
     @media (max-width: 414px) {
         margin-bottom: 710px;
     }
-
     @media (max-width: 341px) {
         margin-bottom: 942px;
     }
 
+    @media (max-width: 375px) {
+        margin-bottom: 747px;
+    }
+    @media (max-width: 375px) {
+        margin-bottom: 752px;
+    }
+
+    @media (max-width: 320px) {
+        margin-bottom: 1010px;
+    }
     @media (max-width: 300px) {
         margin-bottom: 900px;
     }
